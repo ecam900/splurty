@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200);
+
 .clear {
 	clear:both;
 }
@@ -20,7 +22,7 @@
 }
 
 .slogan {
-	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-style: italic;
 	padding-top: 26px;
 }
@@ -33,6 +35,8 @@
 	color: black;
 	font-size: 25px;
 	border-bottom: 1px solid #dfdfdf;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
 }
 
 header {
@@ -41,4 +45,13 @@ header {
 
 hr {
 	clear:both;
+}
+
+h1 {
+	font-family: 'danielbold', sans-serif;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: 'danielregular', sans-serif;
 }
