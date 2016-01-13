@@ -25,6 +25,7 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-style: italic;
 	padding-top: 26px;
+	font-size: 15px;
 }
 
 .links {
@@ -49,9 +50,22 @@ hr {
 
 h1 {
 	font-family: 'danielbold', sans-serif;
-	font-size: 48px;
+	font-size: 43px;
 }
 
 h2 {
 	font-family: 'danielregular', sans-serif;
+}
+
+.next-quote {
+	color:#f84342;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.footer-blurb {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	text-align: right;
+	font-size:10px;
 }

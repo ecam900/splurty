@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="col-xs-4 slogan">
-			A guide the minds of the animal kingdom
+			"A guide the minds of the animal kingdom" - Albert Einstein
 		</div>
 		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
@@ -29,7 +29,24 @@
 	<hr />
 	<br class="clear"/>
 
-<%= yield %>
+<div class="container">
+	<%= yield %>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "This isn't enough. I demand more!", "#", class: 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">
+			<div class="col-xs-6">
+				Made by Eric Crescioni as a part of <a href="http://thefirehoseproject.com">The Firehose Project</a><br />
+
+				Want to build your own Splurty Web App? - <a href="http://thefirehoseproject.com">Join the community here</a>
+			</div>	
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
