@@ -77,3 +77,22 @@ h2 {
 .about {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+.modal {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+.quote-number {
+	font-family: 'danielregular', sans-serif;
+	font-size: 15px;
+}
